@@ -30,7 +30,7 @@ public class Main {
         }
 
         //4
-        int peopleAge = 22;
+        int peopleAge = 25;
         boolean peopleAgeIsNotSeven = peopleAge >= 2 && peopleAge <= 6;
         boolean peopleAgeIsMoreSix = peopleAge > 6 && peopleAge <= 17;
         boolean peopleAgeIsMore18 = peopleAge >= 18 && peopleAge <= 24;
@@ -46,7 +46,38 @@ public class Main {
             System.out.println("Если возраст человека равен " + peopleAge + ", то ему нужно ходить на работу");
         }
 
+//4 вариант 2
+        int peopleAge2 = 18;
+         boolean ageSix = peopleAge2 >= 2 && peopleAge2 <= 6;
+         boolean ageNot18 = peopleAge2 > 6 && peopleAge2 <= 17;
+         boolean ageMore18 = peopleAge2 >= 18 && peopleAge2 <= 24;
+
+        if (!ageSix && !ageNot18 && !ageMore18) {
+            System.out.println("Если возраст человека равен " + peopleAge2 + ", то ему нужно ходить на работу");
+        }
+            else {
+            if (ageSix) {
+                System.out.println("Если возраст человека равен " + peopleAge2 + ", то ему нужно ходить в детский сад");
+            } else {
+                if (ageNot18) {
+                    System.out.println("Если возраст человека равен " + peopleAge2 + ", то ему нужно ходить в школу");
+                } else {
+                    System.out.println("Если возраст человека равен " + peopleAge2 + ", то ему нужно ходить в университет");
+                }
+            }}
+
+//5
+          int ageKids = 5;
+
+
 
     }
-    }
+}
+
+
+
+
+
+
+
 
